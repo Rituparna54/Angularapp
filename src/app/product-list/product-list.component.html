@@ -1,0 +1,12 @@
+<div>
+    <span *ngIf="isavailable; then condition1 else condition2";>
+    Condition is valid.
+</span>
+<ng-template #condition1>
+    show 20 controls
+</ng-template>
+<ng-template #condition2>
+    show 10 controls
+</ng-template>
+
+</div>
